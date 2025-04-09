@@ -26,13 +26,15 @@ This project explores credit risk through statistical modeling on a dataset of *
   - Length of Credit History
 - **Key Insight**: Prior defaults, often relied upon by creditors, showed **insignificant predictive power** — promoting a shift toward data-driven evaluation.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack (R Libraries)
 
-- R  
-- tidyverse  
-- caret  
-- randomForest  
-- glm / stepwise regression  
+- `caret` – model training & validation  
+- `MASS` – stepwise regression  
+- `stats` – statistical modeling  
+- `randomForest` – feature ranking & classification  
+- `knitr` – reporting and summaries  
+- `cluster`, `flexclust`, `fpc`, `NbClust`, `mclust` – clustering and evaluation  
+- `ROCR` – model performance & ROC analysis  
 
 ## ▶️ How to Run
 
@@ -40,3 +42,12 @@ This project explores credit risk through statistical modeling on a dataset of *
    ```bash
    git clone https://github.com/JaySinghvi/Credit-Risk-Prediction.git
    cd Credit-Risk-Prediction
+
+2. Open the R project or R script in RStudio.
+
+3. Install packages:
+`install.packages(c("caret", "MASS", "stats", "randomForest", "knitr", 
+                   "cluster", "flexclust", "fpc", "NbClust", "mclust", "ROCR"))`
+
+4. Run the main analysis file:
+`source("credit_risk_model.R")`
