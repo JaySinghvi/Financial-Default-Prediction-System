@@ -48,6 +48,4 @@ This project explores credit risk through statistical modeling on a dataset of *
 3. Install packages:
 `install.packages(c("caret", "MASS", "stats", "randomForest", "knitr", 
                    "cluster", "flexclust", "fpc", "NbClust", "mclust", "ROCR"))`
-
-4. Run the main analysis file:
-`source("credit_risk_model.R")`
+4. Run the main file and check for outputs
